@@ -3,12 +3,19 @@
         <p class="intro-hello">Hi, mein Name ist Max Mustermann.</p>
         <h1>Ich bin ein Front-End Developer<br>& UI/UX Designer.</h1>
         <p class="content">Aktuell studieren ich in Berlin B.Sc. Informatik und arbeite nebenher an meinem Start-Up zusammen mit einigen Freunden.</p>
+    <SocialNetworks />
     </article>
+
 </template>
 
 <script>
 
+import SocialNetworks from '@/components/SocialNetworks.vue';
+
 export default {
+    components: {
+        SocialNetworks
+    }
 }
 
 </script>
